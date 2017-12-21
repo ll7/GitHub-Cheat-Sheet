@@ -1,0 +1,51 @@
+Github Flow:
+1. Create Branch
+2. Add commits
+3. Open a Pull Request
+4. Collaborate, and make more commits
+5. Merge the Pull Request
+
+cd GitHub
+git clone url
+git status
+git branch branchname
+git checkout branchname
+
+change something
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+2. Add commits
+
+git status
+git add filename
+git commit
+git commit -m "your message"
+
+# alt = M-
+# strg = ^
+
+git log
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+3. Open A Pull Request
+
+git push -u origin branchname
+
+Create Pull Request:
+
+3.1. After pushing your local changes to your remote repository, point your browser to your repository on Github.com.
+3.2. Click the Pull Requests tab.
+3.3.  Click New pull request.
+3.4  In the base: dropdown, select master.
+3.5 In the compare: dropdown, select the branch you recently pushed to the repository.
+3.6 Click Create pull request.
+3.7 Modify the Title and Description of the Pull Request to identify the changes this Pull Request is introducing to the master branch and your repository.
+
+%%%%%%%%%%%%%%%
+5. on github.com, Merge Pull Request
+
+%%%%%%%%%%%%%%%%%%%%
+6. Git pull (Keeping the Local Repository in Sync)
+
+git checkout master
+git pull
