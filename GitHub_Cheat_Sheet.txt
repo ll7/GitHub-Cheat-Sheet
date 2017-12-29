@@ -7,6 +7,7 @@ Github Flow:
 
 cd GitHub
 git clone url
+cd new_git_directory
 git status
 git branch branchname
 git checkout branchname
